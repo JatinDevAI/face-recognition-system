@@ -94,7 +94,7 @@ python main.py
 
 ## 📸 Output
 
-![Output](screenshots/output.png)
+![Output]([screenshots/OUTPUT.png]
 
 * Webcam opens
 * Detects faces
