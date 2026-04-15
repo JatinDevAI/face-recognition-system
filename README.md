@@ -94,7 +94,7 @@ python main.py
 
 ## 📸 Output
 
-![Output]([screenshots/OUTPUT.png])
+![Output](https://raw.githubusercontent.com/JatinDevAI/face-recognition-system/main/face_recognition_project/screenshort/OUTPUT.png)
 
 * Webcam opens
 * Detects faces
