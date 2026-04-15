@@ -1,5 +1,7 @@
 # 👤 Face Recognition System
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
 A real-time face recognition system built using **Python**, **OpenCV**, and the **face_recognition** library.
 This project detects and identifies faces from a live webcam feed efficiently and accurately.
 
@@ -11,6 +13,7 @@ This project detects and identifies faces from a live webcam feed efficiently an
 * 🧠 Face recognition using stored images
 * 🏷️ Displays names of recognized individuals
 * ⚡ Lightweight and fast execution
+* ✅ Handles cases where no face is detected
 
 ---
 
@@ -78,6 +81,17 @@ python main.py
 
 ---
 
+## 🧠 How It Works
+
+1. Loads known face images from the `known_faces/` folder
+2. Encodes faces using the face_recognition library
+3. Starts webcam video capture
+4. Detects faces frame-by-frame
+5. Compares detected faces with known encodings
+6. Displays the name of the matched person
+
+---
+
 ## 📸 Output
 
 ![Output](screenshots/output.png)
@@ -99,9 +113,9 @@ python main.py
 ## 📌 Future Improvements
 
 * Add graphical user interface (GUI)
-* Store data using a database
-* Improve recognition accuracy with advanced models
-* Deploy as a web-based system
+* Integrate database for storage
+* Improve accuracy with deep learning
+* Deploy as a web-based application
 
 ---
 
